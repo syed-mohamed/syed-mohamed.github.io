@@ -1,0 +1,60 @@
+#root {
+  max-width: 816px;
+  margin: auto;
+  position: relative;
+}
+.desktop #main {
+  margin-left: auto;
+}
+.mobile #main {
+  margin-left: 24px;
+  margin-right: 16px;
+}
+
+.desktop .block {
+  margin-bottom: 32px;
+}
+.desktop #header {
+  font-size: 30px;
+  line-height: 96px;
+}
+.mobile #header {
+  padding-top: 8px;
+  font-size: 24px;
+  line-height: 30px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.58;
+}
+.organization, .institution {
+  font-weight: 700;
+  font-style: italic;
+}
+.role {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.period {
+  float: right;
+}
+.mobile .period {
+  display: block;
+  float: none;
+}
+.institution, .role, .period {
+  line-height: 1.58;
+}
+.summary, .description {
+  margin-top: 16px;
+}
+ul.description>li>p {
+  display: list-item;
+  list-style: disc outside;
+}
+.email {
+  text-decoration: underline;
+}
+.experience-ul>div {
+  margin-bottom: 20px;
+}
