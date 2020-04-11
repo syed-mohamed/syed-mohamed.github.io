@@ -1,1385 +1,856 @@
-<p><strong>Dr. Syed Mohamed. E</strong></p>
-<p>&nbsp;</p>
-<table>
-<head>
-  <style>
-/* =============================================================================
-
-HTML5 display definitions
-
-========================================================================== */
-
-
-
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
-
-audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
-
-audio:not([controls]) { display: none; }
-
-    [hidden] { display: none; }
-
-
-
-
-
-/* =============================================================================
-
-Base
-
-========================================================================== */
-
-
-
-/*
-
-* 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
-
-* 2. Force vertical scrollbar in non-IE
-
-* 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
-
-*/
-
-
-
-html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-
-
-
-body { margin: 0; font-size: 0.8em; line-height: 1.4; }
-
-
-
-body, button, input, select, textarea { font-family: sans-serif; color: #222; }
-
-
-
-/*
-
-* Remove text-shadow in selection highlight: h5bp.com/i
-
-* These selection declarations have to be separate
-
-* Also: hot pink! (or customize the background color to match your design)
-
-*/
-
-
-
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
-
-
-
-
-
-/* =============================================================================
-
-Links
-
-========================================================================== */
-
-
-
-a { color: #00e; }
-
-a:visited { color: #551a8b; }
-
-a:hover { color: #06e; }
-
-a:focus { outline: thin dotted; }
-
-
-
-/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
-
-a:hover, a:active { outline: 0; }
-
-
-
-
-
-/* =============================================================================
-
-Typography
-
-========================================================================== */
-
-
-
-abbr[title] { border-bottom: 1px dotted; }
-
-
-
-b, strong { font-weight: bold; }
-
-
-
-blockquote { margin: 1em 40px; }
-
-
-
-dfn { font-style: italic; }
-
-
-
-hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
-
-
-
-ins { background: #ff9; color: #000; text-decoration: none; }
-
-
-
-mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
-
-
-
-/* Redeclare monospace font family: h5bp.com/j */
-
-pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
-
-
-
-/* Improve readability of pre-formatted text in all browsers */
-
-pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
-
-
-
-q { quotes: none; }
-
-q:before, q:after { content: ""; content: none; }
-
-
-
-small { font-size: 85%; }
-
-
-
-/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
-
-sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-
-sup { top: -0.5em; }
-
-sub { bottom: -0.25em; }
-
-
-
-
-
-/* =============================================================================
-
-Lists
-
-========================================================================== */
-
-
-
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
-
-dd { margin: 0 0 0 40px; }
-
-nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
-
-
-
-
-
-/* =============================================================================
-
-Embedded content
-
-========================================================================== */
-
-
-
-/*
-
-* 1. Improve image quality when scaled in IE7: h5bp.com/d
-
-* 2. Remove the gap between images and borders on image containers: h5bp.com/e
-
-*/
-
-
-
-img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
-
-
-
-/*
-
-* Correct overflow not hidden in IE9
-
-*/
-
-
-
-svg:not(:root) { overflow: hidden; }
-
-
-
-
-
-/* =============================================================================
-
-Figures
-
-========================================================================== */
-
-
-
-figure { margin: 0; }
-
-
-
-
-
-/* =============================================================================
-
-Forms
-
-========================================================================== */
-
-
-
-form { margin: 0; }
-
-fieldset { border: 0; margin: 0; padding: 0; }
-
-
-
-/* Indicate that 'label' will shift focus to the associated form element */
-
-label { cursor: pointer; }
-
-
-
-/*
-
-* 1. Correct color not inheriting in IE6/7/8/9
-
-* 2. Correct alignment displayed oddly in IE6/7
-
-*/
-
-
-
-legend { border: 0; *margin-left: -7px; padding: 0; }
-
-
-
-/*
-
-* 1. Correct font-size not inheriting in all browsers
-
-* 2. Remove margins in FF3/4 S5 Chrome
-
-* 3. Define consistent vertical alignment display in all browsers
-
-*/
-
-
-
-button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
-
-
-
-/*
-
-* 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
-
-*/
-
-
-
-button, input { line-height: normal; }
-
-
-
-/*
-
-* 1. Display hand cursor for clickable form elements
-
-* 2. Allow styling of clickable form elements in iOS
-
-* 3. Correct inner spacing displayed oddly in IE7 (doesn't effect IE6)
-
-*/
-
-
-
-button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
-
-
-
-/*
-
-* Consistent box sizing and appearance
-
-*/
-
-
-
-input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
-
-input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
-
-input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
-
-
-
-/*
-
-* Remove inner padding and border in FF3/4: h5bp.com/l
-
-*/
-
-
-
-button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
-
-
-
-/*
-
-* 1. Remove default vertical scrollbar in IE6/7/8/9
-
-* 2. Allow only vertical resizing
-
-*/
-
-
-
-textarea { overflow: auto; vertical-align: top; resize: vertical; }
-
-
-
-/* Colors for form validity */
-
-input:valid, textarea:valid { }
-
-input:invalid, textarea:invalid { background-color: #f0dddd; }
-
-
-
-
-
-/* =============================================================================
-
-Tables
-
-========================================================================== */
-
-
-
-table { border-collapse: collapse; border-spacing: 0; }
-
-td { vertical-align: top; }
-
-
-
-
-
-/* ==|== primary styles =====================================================
-
-Author: Saurabh Kumar (http://saurabhworld.in)
-
-========================================================================== */
-
-
-
-.container {
-
-width: 80%;
-
-max-width: 600px;
-
-margin: 0 auto; 
-
-}
-
-
-
-table{
-
-width: 100%;
-
-}
-
-
-
-thead{
-
-font-weight: bold;
-
-}
-
-
-
-td{ 
-
-border: 1px solid #ddd;
-
-padding: 2px;
-
-}
-
-
-
-
-
-.project > .title {
-
-margin-bottom: 0px;
-
-}
-
-
-
-.project > .meta {
-
-font-size: 0.8em;
-
-}
-
-
-
-.project > .meta > .date {
-
-float: right;
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==|== media queries ======================================================
-
-PLACEHOLDER Media Queries for Responsive Design.
-
-These override the primary ('mobile first') styles
-
-Modify as content requires.
-
-========================================================================== */
-
-
-
-@media only screen and (min-width: 480px) {
-
-/* Style adjustments for viewports 480px and over go here */
-
-
-
-}
-
-
-
-@media only screen and (min-width: 768px) {
-
-/* Style adjustments for viewports 768px and over go here */
-
-
-
-}
-
-
-
-
-
-
-
-/* ==|== non-semantic helper classes ========================================
-
-Please define your styles before this section.
-
-========================================================================== */
-
-
-
-/* For image replacement */
-
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
-
-.ir br { display: none; }
-
-
-
-/* Hide from both screenreaders and browsers: h5bp.com/u */
-
-.hidden { display: none !important; visibility: hidden; }
-
-
-
-/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-
-.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
-
-
-
-/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
-
-
-
-/* Hide visually and from screenreaders, but maintain layout */
-
-.invisible { visibility: hidden; }
-
-
-
-/* Contain floats: h5bp.com/q */
-
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-
-.clearfix:after { clear: both; }
-
-.clearfix { *zoom: 1; }
-
-
-
-
-
-
-
-/* ==|== print styles =======================================================
-
-Print styles.
-
-Inlined to avoid required HTTP connection: h5bp.com/r
-
-========================================================================== */
-
-
-
-@media print {
-
-* { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
-
-a, a:visited { text-decoration: underline; }
-
-a[href]:after { content: " (" attr(href) ")"; }
-
-abbr[title]:after { content: " (" attr(title) ")"; }
-
-.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } /* Don't show links for images, or javascript/internal links */
-
-pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-
-thead { display: table-header-group; } /* h5bp.com/t */
-
-tr, img { page-break-inside: avoid; }
-
-img { max-width: 100% !important; }
-
-@page { margin: 0.5cm; }
-
-p, h2, h3 { orphans: 3; widows: 3; }
-
-h2, h3 { page-break-after: avoid; }
-
-}
-body {background-color: powderblue;}
-h1   {color: blue;}
-p    {color: red;}
-</style>
-</head>
-<tbody>
-<tr>
-<td width="217">
-<p><strong>&nbsp;/</strong><strong>/ </strong><strong>Proﬁle</strong></p>
-<p><strong>&nbsp;<em><br /></em></strong></p>
-<br />
-<p><strong><em>Name</em></strong></p>
-<p><em>&nbsp;</em></p>
-<p><strong>SYED MOHAMED.E</strong></p>
-<p>&nbsp;</p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>Office Address </strong></p>
-<p><strong>&nbsp;</strong></p>
-<p>Department of CSE</p>
-<p>B.S.A.Crescent University</p>
-<p>Vandalur, Chennai,</p>
-<p>India, 600 048&nbsp;</p>
-<p>+91-44-22751347/48/50</p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>Mobile</strong></p>
-<p>&nbsp;</p>
-<p>+91 9444214825</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong>Email</strong></p>
-<p>&nbsp;</p>
-<p>syedmohamed.e @gmail.com</p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>LinkedIn</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p>wwww.linkedin.com/in/dr-e-syed-mohamed-536328109</p>
-<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
-<p><strong>&nbsp;Website</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; http://syedmohamed.in</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-</td>
-<td width="481">
-<p><strong>/</strong><strong>/ </strong><strong>Summary of Resume</strong></p>
-<p>&nbsp;</p>
-<br />
-<p>&middot;&nbsp;&nbsp; <strong>Objectives : </strong></p>
-<p>&sect;&nbsp; Effective and Efficient Academics</p>
-<p>&sect;&nbsp; Curricular Innovations and Development</p>
-<p>&sect;&nbsp; Hi-tech Learning Environments</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Employment : </strong>Teaching / Research (15 Yrs) + Others (4 Yrs)</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Education: </strong>Ph.D (CSE), M.E (CSE),B.E (EEE)</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Research Interests : </strong>Soft Computing, Web Technologies,Modelling</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Foreign Visits / Assignments : </strong>Malaysia ,Singapore</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Memberships: </strong>National (02)</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Administration: </strong>Assistant Dean (~ 01 Yr+) &amp;</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Project Coordinator-(03 Yrs)</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Research Project : </strong>Soft computing and Modeling</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( Applied &ndash;SERB,DST,INDIA) (03 Yrs)</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Courses Taught: </strong>&nbsp;PG(10 Yrs) &amp;UG(15 Yrs)</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Events Organization : </strong>Seminar/Workshop/Spl.Lecture (47)</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Publications and Presentations : 12</strong>+ (H-index: 02)</p>
-<p><strong>&nbsp;</strong></p>
-<p>&middot;&nbsp;&nbsp; <strong>PhD Supervision : </strong>Ph.D.(06 Continue)</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>PhD Theses Evaluations: </strong>2017- 02</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>PG Supervision : </strong>M.Tech (~12)</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>UG Supervision : </strong>B.Tech (~32)</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Select Participations : </strong>More than 10 in Conferences etc</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Select Lectures : </strong>More Than 5 as Keynote, Guest etc</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Short Term Courses/Faculty Development &nbsp;: </strong>Eight &nbsp;Courses</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Projects Undertaken: </strong>Ph.D.(06), M.Tech. (12) &amp; B.Tech.(31)</p>
-<p>&nbsp;</p>
-<p>&middot;&nbsp;&nbsp; <strong>Practiced and Technical Skills</strong></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<table>
-<tbody>
-<tr>
-<td width="692">
-<table width="96%">
-<tbody>
-<tr>
-<td colspan="5" width="100%">
-<p><strong>/</strong><strong>/</strong> <strong>Experience&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
-</td>
-</tr>
-<tr>
-<td width="20%">&nbsp;</td>
-<td colspan="4" width="79%">
-<p><strong>&nbsp;</strong></p>
-<p><strong>15 + years of experience in Engineering teaching and Research</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="5" width="100%">
-<p>// <strong>Academic Employment History</strong></p>
-</td>
-</tr>
-<tr>
-<td width="20%">
-<p><strong>2016 &ndash;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>Till Date</strong></p>
-</td>
-<td width="39%">
-<p><strong>B.S.A Crescent University ,Chennai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
-<p>&nbsp;</p>
-<p>Associate Professor</p>
-<p>Duration of work&nbsp;&nbsp; -&nbsp;&nbsp; August 2016 to Till date</p>
-<p>&nbsp;</p>
-</td>
-<td colspan="3" width="40%">
-<p><strong>B.S.A Crescent University, Chennai &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p>
-<p>&nbsp;</p>
-<p>Assistant Dean (Ac Research)</p>
-<p>Duration of work &ndash; September 2017 to Till date</p>
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="20%">
-<p><strong>2010 - 2016</strong></p>
-</td>
-<td colspan="3" width="52%">
-<p><strong>B.S.A Crescent University , Chennai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
-<p>&nbsp;</p>
-<p>Assistant Professor (Senior Grade)</p>
-<p>Duration of work &ndash; 09th March, 2010 to 31st July, 2016</p>
-<p>&nbsp;</p>
-</td>
-<td rowspan="3" width="26%">
-<p>&nbsp;</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p>&nbsp;&nbsp;</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="20%">
-<p><strong>2006 - 2010</strong></p>
-</td>
-<td colspan="3" width="52%">
-<p><strong>B.S.A Crescent Engineering College , Chennai&nbsp; </strong></p>
-<p>&nbsp;</p>
-<p>Assistant Professor</p>
-<p>Duration of work &ndash; 02nd January ,2006 to 08th March , 2010.</p>
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="20%">
-<p><strong>2003 - 2005</strong></p>
-</td>
-<td colspan="3" width="52%">
-<p><strong>C.Abdul Hakeem College of Engg. &amp;Tech ,Vellore </strong></p>
-<p>&nbsp;</p>
-<p>Lecturer</p>
-<p>Duration of work &ndash; 06th June,2003 to 30th November , 2005</p>
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td colspan="5" width="100%">
-<p><strong>// </strong><strong>Professional Employment History</strong></p>
-</td>
-</tr>
-<tr>
-<td width="20%">
-<p><strong>1998 - 2001</strong></p>
-</td>
-<td colspan="4" width="79%">
-<p><strong>Elmaq Ebusiness Private Limited,Chennai,&nbsp; </strong></p>
-<p>&nbsp;</p>
-<p>Software Engineer</p>
-<p>&nbsp;Duration of work &ndash; Oct&rsquo;1998 &ndash; Sept&rsquo;2001</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="20%">
-<p><strong>2003 - 2005</strong></p>
-</td>
-<td colspan="4" width="79%">
-<p><strong>Epsy Info Solutions Pvt.Ltd.,Chennai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
-<p>&nbsp;</p>
-<p>Software Engineer</p>
-<p>&nbsp;Duration of work &ndash; May&rsquo;1997 - July&rsquo;1998<strong>&nbsp;&nbsp;&nbsp; </strong></p>
-<p><strong>&nbsp;&nbsp;&nbsp; </strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="5" width="100%">
-<p><strong>/</strong><strong>/ </strong><strong>Education</strong></p>
-</td>
-</tr>
-<tr>
-<td width="20%">
-<p>&nbsp;</p>
-<p><strong>2009 - 2015</strong></p>
-</td>
-<td colspan="2" width="48%">
-<p><strong><em>&nbsp;P</em></strong><strong><em>h.D.</em></strong></p>
-<p><strong>&nbsp;Computer Science and Engineering</strong></p>
-<p>&nbsp;</p>
-</td>
-<td colspan="2" width="31%">
-<p><strong>B.S.A Crescent University Chennai</strong></p>
-</td>
-</tr>
-<tr>
-<td width="20%">
-<p><strong>2001 - 2003</strong></p>
-</td>
-<td colspan="2" width="48%">
-<p><strong><em>M.E .</em></strong></p>
-<p><strong>C</strong><strong>omputer Science and Engineering</strong></p>
-<p>&nbsp;</p>
-</td>
-<td colspan="2" width="31%">
-<p><strong>&nbsp;</strong></p>
-<p><strong>University of Madra</strong><strong>s, Chennai</strong></p>
-</td>
-</tr>
-<tr>
-<td width="20%">
-<p><strong>1994 - 1997</strong></p>
-</td>
-<td colspan="2" width="48%">
-<p><strong><em>B.E.</em></strong></p>
-<p><strong>Electrical and Electronics Engineering</strong></p>
-</td>
-<td colspan="2" width="31%">
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>University of Madra</strong><strong>s, Chennai</strong></p>
-<p><strong>&nbsp;</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="5" width="100%">
-<p><strong>// </strong><strong>International certification</strong></p>
-</td>
-</tr>
-<tr>
-<td width="20%">
-<p>&nbsp;</p>
-</td>
-<td colspan="4" width="79%">
-<p>&nbsp;</p>
-<p>&nbsp;Microsoft Certified Professional (MCP)</p>
-</td>
-</tr>
-<tr>
-<td width="20%">
-<p>&nbsp;</p>
-</td>
-<td colspan="4" width="79%">
-<p>&nbsp;&nbsp;&nbsp;</p>
-<p>&nbsp;IBM Certified Database Associate DB2</p>
-</td>
-</tr>
-<tr>
-<td width="134">&nbsp;</td>
-<td width="255">&nbsp;</td>
-<td width="60">&nbsp;</td>
-<td width="30">&nbsp;</td>
-<td width="174">&nbsp;</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<p><strong>/</strong><strong>/ </strong>Membership in Professional Bodies</p>
-<p>&nbsp;Indian Physics Association <strong>(IPA)</strong></p>
-<p>Instrument Society of &nbsp;India <strong>(ISOI)</strong></p>
-<p><strong>LinkedI</strong><strong>n </strong><strong>- </strong><a href="http://in.linkedin.com/pub/lakshminarayan-n/7/580/7bb">http://in.linkedin.com/pub/lakshminarayan-n/7/580/7bb</a></p>
-<table>
-<tbody>
-<tr>
-<td width="659">
-<p><strong>&nbsp;&nbsp; </strong><strong>// </strong><strong>S</strong><strong>ynopsi</strong><strong>s </strong><strong>o</strong><strong>f Ph.D.Thesis </strong></p>
-<p><strong>&nbsp;</strong></p>
-<br />
-<p><strong>Cellular automata and geometric models for Propagation of&nbsp; Tsunami waves</strong></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p>This thesis deals with tsunami wave propagation models. The aim of this work is to develop algorithmic-based tools for computing the tsunami wavespread under different conditions. The models in this work establish the methods of computing the rate of propagation of tsunami waves and Estimated Arrival Time (EAT). Moreover, cellular automata models are useful for both homogeneous and non-homogeneous ocean environments and Huygens&rsquo; Principle model is implemented for homogeneous ocean environment. The algorithms are developed using mathematical and soft computing techniques. The objectives of the thesis are two-fold: (a) To simulate various scenarios of tsunami wavespread and (b) to study the performance and effectiveness of cellular automata and the geometric models in tsunami wave propagation.</p>
-<p>&nbsp;</p>
-<p>The first study discusses two-dimensional cellular automata model to correlate the sensitivity of the computational results to tsunami wavespread.In the second study a new hexagonal cellular automata model based on the transfer of fractional traversed area and thereby, graphical representation of rate of wave spread has been found successfully. The performance enhancement of hexagonal cellular automata over two-dimensional cellular automata is also studied.</p>
-<p>The algorithms are efficient and can be easily implemented with less computational time and cost. Experimental results of our models mimic the value of real propagation. Together with these working models of a tsunami wave and historical data, Visual representations using the Java programming language for our models are also presented.</p>
-<p><strong>&nbsp;</strong></p>
-</td>
-</tr>
-<tr>
-<td width="659">
-<p><strong>// Areas of Research Interest</strong></p>
-<ul>
-<li>Soft Computing</li>
-<li>Information Security</li>
-<li>Web Technologies</li>
-<li>Big data &amp; Data Visualization</li>
-<li>Mathematical Modeling</li>
-<li>Graphics and Multimedia</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="659">
-<p><strong>&nbsp;</strong><strong>/</strong><strong>/ </strong><strong>Lis</strong><strong>t of Publications</strong></p>
-<p><strong>&nbsp;</strong></p>
-<br />
-<p><strong>R</strong><strong>efereed Journal Publications</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p>1.&nbsp;&nbsp;&nbsp; E.Syed Mohamed,S.Rajasekaran,&rdquo; Tsunami Wave Propagation Models Based On Two-dimensional Cellular Automata &ldquo;International Journal Of Computer Applications ,57(20) ,p 22-29,November 2012.</p>
-<p>2.&nbsp;&nbsp;&nbsp; E.Syed Mohamed,S.Rajasekaran &ldquo;Tsunami Wave Simulation Models Based On Hexagonal Cellular Automata &ldquo;WSEAS Transactions On Fluid Mechanics, 8(3), p 91-101, July&nbsp; 2013.(Scopus Listed)</p>
-<p>3.&nbsp;&nbsp;&nbsp; E.Syed Mohamed,S.Rajasekaran,&rdquo; Performance Enhancement for Tsunami Wave Simulation using Hexagonal Cellular Automata &ldquo;,International Journal Of Computer Applications,75(9) ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p&nbsp; 36-43, ,August&nbsp;&nbsp; 2013.&nbsp;</p>
-<p>4.&nbsp;&nbsp;&nbsp; E.Syed Mohamed,S.Rajasekaran &ldquo; Propagation Of Tsunami Waves Multi-factor Spread Simulation Based On CA Model &ldquo;,International Journal Of Advanced Computer Technology, 2(8) ,p 267-274 , August 2013.</p>
-<p>5.&nbsp;&nbsp;&nbsp; E.Syed Mohamed,S.Rajasekaran &ldquo;A Study Of Tsunami Model For Propagation Of Oceanic Waves&rdquo;, Journal Of Theoretical And Applied Information Technology, 59(3) p 510-519, ,January 2014. (Scopus Listed)</p>
-<p>6.&nbsp;&nbsp;&nbsp; E.Syed Mohamed&nbsp; and A. Kamala,&rdquo; Gradient blending of images for content aware image resizing&rdquo;&rdquo; SSRG International Journal of Computer Science and Engineering,5(6),p 71-76,July 2015 (<a href="http://www.internationaljournalssrg.org/images/ugc-ssrg-ijcse.jpg">UGC Approved Journal</a>)</p>
-<p>7.&nbsp;&nbsp;&nbsp; E.Syed Mohamed&nbsp; and R.Neerajha,&rdquo;Image enhancement and quality analysis using the biolog transformation&rdquo;&rdquo; SSRG International Journal of Computer Science and Engineering,5(6),p 77-83,July 2015</p>
-<p>8.&nbsp;&nbsp; E.Syed Mohamed&nbsp; and S.Syed Abdul syed &ldquo;An effective reliable broadcast code dissemination in wireless sensor networks &ldquo;International Journal of Electrical Engineering &amp; Technology (IJEET), &nbsp;6(7), pp.61-70, Jul-Aug, 2015. (Scopus Listed)</p>
-<p>9.&nbsp;&nbsp; E.Syed Mohamed&nbsp; and A.Sarfaraz Ahamed &ldquo;A novel broadcasting method for code dissemination in wireless sensor networks &ldquo;International Journal of Electrical Engineering &amp; Technology (IJEET), &nbsp;6(7), pp.71-80, Jul-Aug, 2015. (Scopus Listed)</p>
-<p>10. V Yuvaraj,E.Syed Mohamed,S Rajasekaran,"Analytical and Numerical Modeling of Tsunami Wave Propagation for double layer state in Bore", Journal of Physics: Conference Series Doi:10.1088/1742-6596/1000/1/012113 (Scopus Listed)</p>
-<p><strong>&nbsp;R</strong><strong>efereed Conference Publications </strong></p>
-<p><strong>&nbsp;</strong></p>
-<ol>
-<li>E.Syed Mohamed,S.Rajasekaran,&rdquo;&nbsp; &ldquo;Performance Enhancement of Forest fire spread Simulation using Hexagonal CA Model&rdquo; at BSA University, Chennai on 28-29 Jan&rsquo;2010</li>
-</ol>
-<p>&nbsp;</p>
-<ol>
-<li>E.Syed Mohamed,S.Rajasekaran, &ldquo;Multi &ndash;Model forest fire simulation using CA Model &ldquo;at Vellammal Engineering College, Chennai on 19th Feb&rsquo;2010</li>
-</ol>
-<p>&nbsp;</p>
-<ol>
-<li>E.Syed Mohamed,S.Rajasekaran,&rdquo;&nbsp; &ldquo;A geometric Model for the propagation of Tsunami waves&rdquo; 25-29thJuly&rsquo;2010, 4th International Tsunami conference Toronto, Canada (Scopus Listed)</li>
-</ol>
-<p>&nbsp;</p>
-<ol>
-<li>E.Syed Mohamed,S.Rajasekaran,&rdquo;&nbsp; &ldquo;Forest fire Simulation Models based on Cellular Automata&rdquo; 03-05August&rsquo;10, ICMAE, 2010 Malaysia</li>
-</ol>
-<p>&nbsp;</p>
-<ol>
-<li>E.Syed Mohamed,S.Rajasekaran,&rdquo;&nbsp; &ldquo;Tsunami Wave Propagation Models based on Cellular Automata&rdquo; November 30 - 10, 2010, ICACCT &ndash; 2010 ,APIIT ,Panipat,IndiaRefereed Conference Publications</li>
-</ol>
-<p>&nbsp;</p>
-<ol>
-<li>E.Syed Mohamed &ldquo;Secret Image Hiding using Fragments for Visible MOSIAC Images&rdquo;,ICMEET 2013</li>
-</ol>
-<p>&nbsp;</p>
-<ol>
-<li>E.Syed Mohamed,&rdquo;Graphical Password Authentication using Persuasive&nbsp; Click Points&rdquo;,LYCANS 2K14 26th Feb&rsquo;2014</li>
-</ol>
-<p>&nbsp;</p>
-<ol>
-<li>E.Syed Mohamed, &ldquo;Reversible Data Hiding in Encrypted images and Videos by Reserving Room &ldquo;LYCANS 2K14 26th Feb&rsquo;2014</li>
-</ol>
-<p>&nbsp;</p>
-<ol>
-<li>E.Syed Mohamed,&rdquo;Gradient Blending of Images using Content Aware Image Resizing &ldquo;ICETSH-2015 Imayam College of Engg.Trichy</li>
-</ol>
-<p>&nbsp;</p>
-<ol>
-<li>E.Syed Mohamed, &ldquo;Image Enchantment and Quality Analysis using the BILOG Tranformation&rdquo; ICETSH-2015 Imayam College of Engg.Trichy</li>
-</ol>
-<p>&nbsp;</p>
-<ol>
-<li>E.Syed Mohamed, Sathana R &ldquo;reversible data hiding in encrypted images using distributed source coding &amp; quota; ,ICSSCCET 2016 ,Karpagam Institute of Technology , Coimbatore on 19th March 2016</li>
-</ol>
-<p>&nbsp;</p>
-<ol>
-<li>E. Syed Mohamed,S. Nivedha &ldquo;Uniform Embedding Distortion Function and Discrete CosineTransformation for Efficient JPEG Steganography&rdquo;, ICCA2016, Meenakshi College of Engineering,Chennai on &nbsp;9<sup>th</sup> &nbsp;April 2016</li>
-</ol>
-<ol>
-<li>Anusuya ,E.Syed Mohamed &ldquo;Cybercrime and Cyber security issues and challenges on healthcare: A survey&rdquo; in International Conference On Information Technology &amp; Digital Applications 2018 (ICITDA 2018) (ISBN: 978-1- 5108-5984- 5)conducted by Department of Information Technology during April 6-7, 2018 at JECRC, Jaipur</li>
-</ol>
-<p><strong>&nbsp;</strong></p>
-</td>
-</tr>
-<tr>
-<td width="659">
-<p><strong>// Research Guidance:</strong></p>
-<p>No.of U.G Students Guided: 31</p>
-<p>No.of P.G Students Guided: 12</p>
-<p>No.of Ph.D students (on-going):06</p>
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="659">
-<p><strong>// Research Citation details </strong></p>
-<p><a href="https://www.researchgate.net/profile/Syed_Mohamed8">https://www.researchgate.net/profile/Syed_Mohamed8</a></p>
-<p><a href="https://scholar.google.com/citations?user=sO4zx-YAAAAJ&amp;hl=en">https://scholar.google.com/citations?user=sO4zx-YAAAAJ&amp;hl=en</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<p><strong>/</strong><strong>/ </strong><strong>Curricula</strong><strong>r </strong><strong>&amp; Other Responsibilities</strong></p>
-<table>
-<tbody>
-<tr>
-<td width="665">
-<p><strong>/ / Course</strong><strong>s Taught</strong></p>
-<p>&nbsp;<strong>Under Graduate and Post Graduate&nbsp; &ndash;Subjects Handled </strong></p>
-<ul>
-<li>&nbsp;Object Oriented Programming</li>
-<li>Graphics &amp;Multimedia</li>
-<li>Relational Database Management Systems</li>
-<li>Internet and web technology Programming</li>
-<li>Software Engineering</li>
-<li>Computer Networks</li>
-<li>Data Mining and Warehousing</li>
-<li>Mobile Computing</li>
-<li>Information Security</li>
-</ul>
-<p>&nbsp;<strong>Under Graduate and Post Graduate&nbsp; &ndash; Lab</strong><strong> Handled&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
-<p>&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Object Oriented Programming Lab</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graphics &amp; Multimedia Lab</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Internet programming Lab</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Relational Database Management Systems Lab</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data structure Lab</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Computer Networks Lab</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Microprocessor and Microcontroller Lab</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Computer Programming Lab</p>
-</td>
-</tr>
-<tr>
-<td width="665">
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="665">
-<p>// <strong>Professional Activities</strong></p>
-<p><strong>// </strong><strong>Quality Improvement Programme(QIP)</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p>•&nbsp;&nbsp; &nbsp;&ldquo;<strong>Instructional&nbsp; Design and Delivery</strong>&rdquo; at NITTTR, Chennai</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From 21st January to 02nd February &lsquo;2008.</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;<strong>Cryptography and Secure Communication</strong>&rdquo; at VIT, Vellore&nbsp;</p>
-<p>From 24th November to 6th December &lsquo;2003</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;<strong>Mobile Networks</strong> &rdquo; at Sri Sairam Engineering College,Chennai</p>
-<p>From 19th&nbsp; Jan to 23rd&nbsp; Jan&rsquo;2009</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>&ldquo;Embedded System &amp; Robotics</strong>&rdquo; at BSA Crescent Crescent University, Chennai</p>
-<p>from 18<sup>th</sup>&nbsp;July&rsquo;2016 to 24<sup>th</sup>&nbsp;July &lsquo;2016</p>
-<p>&nbsp;</p>
-<p><strong>// Faculty Development Programme(FDP)</strong></p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;<strong>Operating System</strong>&rdquo; at Crescent Engineering College, Chennai</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From 31st May to 5th&nbsp; June&rsquo;2004</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;<strong>Network Protocol &amp; Management</strong>&rdquo; at National Engineering College, Kovilpatti,</p>
-<p>From 22ndMay to 3rd June &lsquo;2006.</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "<strong>Web Technology</strong> &ldquo;at Sai Ram Engineering College, Chennai</p>
-<p>From 15th&nbsp;&nbsp; May to 20th&nbsp; May&rsquo; 2006.</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Two week<strong> &ldquo;Faculty Development Programme&nbsp; on Teaching and Learning</strong>&rdquo; at B.S.Abdur Rahman University , From 29<sup>th</sup> June to 11<sup>th</sup> July&rsquo;2015</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;<strong>A School on Algorithms and Techniques </strong>&rdquo; at B.S.Abdur Rahman University , Chennai</p>
-<p>From 22<sup>nd</sup> July to 27<sup>th</sup> July&rsquo;2015.</p>
-<p>.&nbsp;&nbsp;&nbsp; <strong>&ldquo;Big data Analytics &ldquo;&nbsp;</strong>Conducted by DST,New Delhi at Anand Institute of Higher Technology,Chennai</p>
-<p>From 25<sup>th</sup>&nbsp; April &lsquo;2016 to 05<sup>th</sup>&nbsp; May &lsquo;2016</p>
-<p>&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>&ldquo;Introduction to Mobile App Development&nbsp;&nbsp;</strong>Conducted by ICT Academyat at B S Abdur Rahman &nbsp;University, Chennai during 30-31<sup>st</sup>&nbsp;Jan&rsquo;2017</p>
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="665">
-<p><strong>// Development of Learning Resource Material</strong></p>
-<ul>
-<li>Refresh Course Material for Fundamentals of Computing (FOC) Developed&nbsp;</li>
-<li>&nbsp;PPT and CD Prepared for Refresh Course Material(FOC),DBMS,Web technologies ,etc.,</li>
-<li>Laboratory Manual Developed (OOPS)</li>
-<li>Activity based Learning Material Developed (DBMS)</li>
-<li>Project based Learning Material Developed(DBMS Lab)</li>
-<li>OOPS Concept Lecture Video available in You tube</li>
-<li>&nbsp;(<a href="https://www.youtube.com/watch?v=RFE2BvGWkj0&amp;t=20s">https://www.youtube.com/watch?v=RFE2BvGWkj0&amp;t=20s</a>)</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="665">
-<p><strong>// Invited Lectures as a Resource person</strong></p>
-</td>
-</tr>
-<tr>
-<td width="665">
-<p>&nbsp;</p>
-<ul>
-<li>TED Programme for &ldquo;Computer Hardware Services and Maintenance&rdquo; conducted by EDC Department and organized by BSA Crescent Engineering College, Chennai, during 23rd -25thFeb &lsquo;2008.</li>
-</ul>
-<p>&nbsp;</p>
-<ul>
-<li>The Talent transformation programme for the WIPRO Tech., Chennai during May 2009.</li>
-</ul>
-<p>&nbsp;</p>
-<ul>
-<li>The Campus connect programme for the INFOSYS Tech., Chennai during May 2008 &amp; May 2009.</li>
-</ul>
-<p><strong>&nbsp;</strong></p>
-<table width="100%">
-<tbody>
-<tr>
-<td>
-<p><strong>S.No</strong></p>
-</td>
-<td width="46%">
-<p><strong>Title of Paper Lecture/Academic Session</strong></p>
-</td>
-<td width="30%">
-<p><strong>Title of Conference/ Seminar</strong></p>
-</td>
-<td width="18%">
-<p><strong>Organizers</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>1</p>
-</td>
-<td width="46%">
-<p>&nbsp;&ldquo;Cellular Automata and its Applications &ldquo; 06<sup>th</sup>&amp;07<sup>th</sup>&nbsp;Dec&rsquo;2010</p>
-</td>
-<td width="30%">
-<p>A two day Inter-disciplinary Seminar &ndash; Soft Computing Algorithms</p>
-</td>
-<td width="18%">
-<p>B.S.Abdur Rahman University</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>2</p>
-</td>
-<td width="46%">
-<p>&nbsp;&ldquo;Master Level&nbsp; IT finishing school training for SC/ST students&rdquo; 12<sup>th&nbsp;</sup>&ndash; 14<sup>th</sup>&nbsp;oct&rsquo;2011</p>
-</td>
-<td width="30%">
-<p>A three day training programme for SC/ST students</p>
-</td>
-<td width="18%">
-<p>B.S.Abdur Rahman University</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-</td>
-</tr>
-<tr>
-<td width="665">
-<p><strong>// Institution level Responsibilities:</strong></p>
-<ul>
-<li>Time table coordinator &amp; Class rooms arrangement co- ordinator</li>
-<li>Co-ordinated in the conduct of Institution level on-line examination for Admissions</li>
-<li>Research Supervisor</li>
-<li>Doctoral Committee &amp; Pre synopsis Committee Member</li>
-<li>PhD Viva Voce &ndash;Coordinator</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="665">
-<p><strong>// Department level Responsibilities:</strong></p>
-<ul>
-<li>Worked as Project coordinator in CSE department at C.Abdul Hakeem College of Engineering &amp; Technology, Melvisharam. From June&rsquo;2003 to Dec&rsquo;2005</li>
-</ul>
-<ul>
-<li>Worked as Class advisor for B.Tech(CSE) &amp; M.Tech(SE)</li>
-<li>Worked as Project coordinator for B.Tech(CSE)</li>
-<li>Faculty Advisor .</li>
-<li>Internal Auditor for Labs.</li>
-<li>Prof.Lab In charge (June 2017 &ndash;July 2018) .</li>
-<li>Co-ordinator for stock verification.</li>
-<li>Committee Member for Monitoring the smooth conduct of classes.</li>
-<li>Class room arrangement Co-ordinator.</li>
-<li>Department Academic Audit Committee member.</li>
-<li>Project Review Committee Member.</li>
-<li>Memebr for Parent &ndash;Teacher Meet</li>
-<li>Member of Industry Institute Interaction meet</li>
-<li>Staff Incharge for Regulation, Curriculum and syllabi</li>
-<li>Co-ordinated in the conduct of University Admissions</li>
-<li>Co-ordinated in the NBA for B.Tech CSE &amp; M.Tech CSE.</li>
-<li>Co-ordinated in the conduct of department symposium</li>
-<li>Co-ordinated in the conduct of department events Extra Curricular Meet and Talent Hunt</li>
-<li>Committee Member Co-ordinator for Curriculum development for UG &amp; PG programmes</li>
-<li>Class Committee Chairperson</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="665">
-<p><strong>// Organized Workshops/Seminars/Conferences </strong></p>
-<p><strong>Organized Workshops/Seminar/Programmes : 47 </strong></p>
-<ul>
-<li>Two day workshop on &ldquo;IBM Tivoli Software&rdquo; organized by BSA &nbsp; Crescent Engineering College, Chennai. During 21 -22 March&rsquo;2007.</li>
-<li>Soft skills programme on &ldquo;Importance of Software Testing&rdquo; conducted by Birla Soft and organized by BSA Crescent Engineering College, Chennai&nbsp;on 25<sup>th</sup> March&rsquo;2007.</li>
-<li>Soft skills programme on &ldquo;WEBINAR on Storage Networks&rdquo; conducted by Infosys and organized by BSA Crescent Engineering College, Chennai, on 29<sup>th</sup>&nbsp;&nbsp;&nbsp; March&rsquo;2007.</li>
-<li>One day Seminar&nbsp; on &ldquo;IBM-Overview of Rational Software&rdquo;&nbsp; conducted by CSE Department&nbsp; and organized by BSA Crescent Engineering College, Chennai&nbsp;&nbsp; on 19<sup>th</sup> September&rsquo;2007</li>
-<li>One day Workshop&nbsp; on &ldquo;Time Management and Six sigma&rdquo; conducted by CSE Department and organized by BSA Crescent Engineering College,Chennai on 30<sup>th</sup>December &rsquo;08.</li>
-<li>One day Seminar&nbsp; on &ldquo;Importance of Total Quality&nbsp; Management&rdquo; conducted by CSE Department on 04<sup>th</sup>&nbsp;Aug&rsquo;2009</li>
-<li>One day Seminar&nbsp; on &ldquo;Face the interview and Ace the interview&rdquo; conducted by CSE Department&nbsp;on 14<sup>th</sup>&nbsp;December&rsquo;2009</li>
-<li>One day Technical Seminar as a Co-Coordinator on &ldquo;Virtualization Technology &rdquo; conducted by CSE Department&nbsp;on 08<sup>th</sup>&nbsp;Jan&rsquo;2010</li>
-<li>One day Seminar&nbsp; on &ldquo;Applying Different Technologies in the Engineering Field &rdquo; conducted by CSE Department&nbsp;on 18<sup>th</sup> Jan&rsquo;2010</li>
-<li>One day Seminar&nbsp; on &ldquo; Adobe Certified Expert&nbsp; Training Programme &rdquo; conducted by CSE Department&nbsp;on 22<sup>nd</sup>&nbsp;Feb&rsquo;2010</li>
-<li>&nbsp;A two day Seminar&nbsp; on &ldquo; Soft Computing Algorithms&nbsp; &rdquo; conducted by CSE Department&nbsp;on 06&amp;07<sup>th</sup>&nbsp;Dec&rsquo;2010</li>
-<li>A two day Seminar&nbsp; on &ldquo; Software Testing &rdquo; conducted by CSE Department&nbsp;on 03&amp;04<sup>th</sup>&nbsp;Oct&rsquo;2011</li>
-<li>&nbsp;Workshop on &ldquo; IEEE Programming in SWEBOK and CSDA&rdquo; for Second UG and PG students of CSE on 12<sup>th</sup>&nbsp;March 2011</li>
-<li>&nbsp;One month Summer class&nbsp; on &ldquo;Fundamental of computing&nbsp; Refresh Course&rdquo; from&nbsp; April 2012 to May 2012</li>
-<li>&nbsp; one month Summer class&nbsp; on &ldquo;Fundamental of computing&nbsp; Refresh Course&rdquo; from&nbsp; April 2013 to May 2013.</li>
-<li>One day International special lecture&nbsp;&nbsp; on &ldquo;An Introduction to Data Science &ldquo; conducted by International collaboration Department on 16<sup>th</sup>&nbsp;Nov&rsquo;2016.</li>
-<li>One day Industry Interaction Meet 2016&nbsp;&nbsp; on &ldquo;IIPC Meet 2016&rdquo; conducted by CSE department&nbsp;on 21<sup>st</sup>&nbsp;Nov&rsquo;2016.</li>
-<li>One day International special lecture&nbsp; on &ldquo;Game Changing Finance technologies &ldquo;conducted by CSE Department on 27<sup>th</sup>Nov&rsquo;2016.</li>
-<li>Three days national workshop on &ldquo;Virtual reality game development from 17<sup>th</sup>&nbsp;April to 19<sup>th</sup>&nbsp;April&rsquo;2017 conducted by CSE department&nbsp; at B S Abdur Rahman Crescent University</li>
-<li>One&nbsp; day&nbsp; workshop on &ldquo;Mobile App development &amp;Softskill on 14<sup>th</sup>&nbsp;March &rsquo;2017 conducted by CSE department&nbsp; at B S Abdur Rahman Crescent University</li>
-<li>&nbsp;One day International eight special lecture presentation&nbsp; on &ldquo;British Council CS &amp; IT Mission 2017 &ldquo;conducted by International collaboration Department&nbsp; on 25<sup>th</sup>&nbsp;Jan&rsquo;2017.</li>
-<li>One day International lecture presentation&nbsp; on &rdquo; Global Academic Internship Programme at NUS -NTU , SINGAPORE, conducted by International collaboration Department at BSAU&nbsp; on 15th Feb 2017</li>
-<li>One day International lecture presentation&nbsp; on &rdquo; US Consulate Program at BSAU with Mr.Aman Ali,conducted by International collaboration Department at BSAU&nbsp; on 2nd March 2017</li>
-<li>One day International lecture presentation&nbsp; on &ldquo;German Academic Exchange Service presentation&rdquo;conducted by International collaboration Department at BSAU&nbsp;on 09th March 2017</li>
-<li>One day Onsite Training Seminar on &ldquo;How to use Turnitin Plagiarism Software Effectively &ldquo;conducted by Office of Dean (Ac research) on 6th Nov 2017 at B.S. A Crescent Institute of Science &amp; Technology, Chennai</li>
-<li>One day &ldquo; VC&rsquo;s Town Hall Talk with Research Scholars&rdquo; conducted by Office of Dean (Ac research) on 21st Nov ,2017 at B.S. A Crescent Institute of Science &amp; Technology, Chennai.</li>
-<li>One day Workshop on &ldquo;Scholarly Article Writing and Journal Publications&rdquo; conducted by Office of Dean (Ac research) on 13th March 2018 at B.S. A Crescent Institute of Science &amp; Technology, Chennai.</li>
-<li>One day guest lecture on &ldquo;A Computation Analysis of Indus Valley Inscriptions&rdquo; conducted by Office of Dean (Ac research) on 03rd April, 2018 at B.S. A Crescent Institute of Science &amp; Technology, Chennai.</li>
-<li>One day Workshop on &ldquo;How to write a Research paper&rdquo; conducted by Office of Dean (Ac research)on 13th April, 2018 at B.S. A Crescent Institute of Science &amp; Technology, Chennai.</li>
-<li>One day Workshop on &ldquo;How to Make Mobile Resume Website in 3 Hours&rdquo; conducted by Office of Dean (Ac research)on 21st April,2018 at B.S. A Crescent Institute of Science &amp; Technology, Chennai.</li>
-<li>&nbsp;A four days Workshop on &ldquo; Data Analytics -SPSS &rdquo; conducted by Office of Dean (Ac research)from 02th May &ndash; 05th May 2018 at B.S. A Crescent Institute of Science &amp; Technology, Chennai.</li>
-<li>&nbsp;A three days Workshop on &ldquo;Writing Quality Research Articles, Project Proposals and Patents&rdquo; conducted by Office of Dean (Research) from 20-22 JULY 2018 at B.S. A Crescent Institute of Science &amp; Technology, Chennai.</li>
-</ul>
-<p>&nbsp;</p>
-<p><strong>// Prof S.Peer Mohamed&rsquo;s Endowment Lecture</strong></p>
-<ul>
-<li>&nbsp;One day Prof S.Peer Mohamed third Endowment Lecture as a Co coordinator organized by BSA Crescent University on 29.11. 2016</li>
-<li>&nbsp;One day Prof S.Peer Mohamed Second Endowment Lecture as a Co coordinator organized by BSA Crescent University on 05.10. 2015</li>
-<li>One day Prof S.Peer Mohamed First Endowment Lecture as a Co coordinator organized by BSA Crescent University on 29.04. 2014.</li>
-</ul>
-<p><strong>// &nbsp;</strong><strong>Entrepreneurship Development Cell Activities</strong></p>
-<ul>
-<li>&nbsp;Three days EAC (Entrepreneurship Awareness Camp) Programme&nbsp; conducted by EDC Department and organized by BSA Crescent Engineering College, Chennai,During 4<sup>th</sup>&nbsp;&nbsp;Feb -6<sup>th</sup>&nbsp;&nbsp;Feb&rsquo;2008.</li>
-<li>&nbsp;EDC-Sixth Advisory Board Meeting&nbsp; conducted by EDC Department&nbsp; and organized by BSA Crescent Engineering College, Chennai&nbsp;on 3<sup>rd</sup>&nbsp;March&rsquo;2008</li>
-<li>&nbsp;One day Soft skills programme&nbsp; on &ldquo;Filing Systems, Paper works and Office Automation&rdquo; conducted by EDC Department and organized by BSA Crescent Engineering&nbsp;College, Chennai on 14<sup>th</sup> March&rsquo;2008</li>
-<li>&nbsp;Six Week TEDP Programme&nbsp; cum instructor on &ldquo;Computer Hardware Services and&nbsp;Maintenance&rdquo; conducted by EDC Department and organized by BSA Crescent Engineering College, Chennai, during 23<sup>rd</sup> Feb -30 March&rsquo;2008.</li>
-<li>&nbsp;One day shop for women students&nbsp; organized by BSA Crescent University on&nbsp; 02.03.2017</li>
-</ul>
-<p><strong>// Attended Workshops/Seminars/Conferences</strong></p>
-<p><strong>&nbsp;National &amp; International Conference/Workshops</strong></p>
-<ul>
-<li>Two Day National Conference on &ldquo;Mobile Computing&ldquo; organized by BSA Crescent Engineering College, Chennai. During 3- 4 Feb&rsquo;2005.</li>
-<li>Two Day International Conference for English on&rdquo; ELTAI&rdquo; organized by BSA Crescent Engineering College, Chennai. During 9 -10 Feb&rsquo;2007.</li>
-<li>One day National workshop on &ldquo;Tamil Computing&rdquo; organized by&nbsp; BSA Crescent Engineering College, Chennai, on 8<sup>th</sup>&nbsp;&nbsp;Aug 2007</li>
-<li>&nbsp;National Conference of &ldquo;iSec 2007&rdquo; (Information Security) at Trade center,&nbsp; Nungambakkam, Chennai on 27<sup>th</sup>&nbsp;&nbsp;Nov&rsquo;07</li>
-<li>&nbsp;National Workshop on &ldquo;Impact of Media in Technical and Vocational Education&rdquo; On 06th &amp; 07th March&rsquo;08 at NITTTR, Chennai.</li>
-<li>&nbsp;National Conference of &ldquo;Open Sources in India&rsquo;09&rdquo; at Trade center, Nungambakkam, Chennai on 12&amp;13th March&rsquo;2009.</li>
-<li>&nbsp;International Conference &ndash; ICSEMA 2012 on Dec19-21,2012&nbsp; organized by B.S.Abdur Rahman Institute</li>
-<li>&nbsp;National Conference on Balancing work and Life on 4th Feb&rsquo;2012 organized by CBS ,B.S.Abdur Rahman &nbsp;University</li>
-<li>&ldquo;National Cyber safety and Security Standards Summit&nbsp; Conference 2013&ldquo; on April&nbsp; 27 &amp;28,2013 organized by NCS at Jeppier College of Engineering ,Chenna.</li>
-<li>&nbsp;One day National Workshop on &ldquo;Educators day 2013 &ldquo;&nbsp; on 2nd September&rsquo;2013 organized by National Instruments ,Chennai</li>
-<li>&nbsp;One day National Level Workshop on &ldquo;Advances in Geospatial &amp; Simulation Models for Earthquake and Disaster Studies &ldquo;&nbsp; on 27th September&rsquo;2014 organized by Earthquake Research Cell, SRM University, Chennai</li>
-</ul>
-<p><strong>&nbsp;</strong></p>
-<p><strong>// Workshops/Seminars</strong></p>
-<ul>
-<li>Seven-day Staff workshop on &ldquo;The Great Mind Challenge-2006&rdquo; Conducted by IBM and organized by BSA Crescent Engineering College, Chennai. From 18th Sept&rsquo;2006 to 24 Sept&rsquo; 2006.</li>
-<li>Two-day Staff workshop on &ldquo;Linux Administration&rdquo; organized by BSA Crescent Engineering College, Chennai. During 12 &amp; 13&nbsp; Jan&rsquo;2007</li>
-<li>Two day workshop on &ldquo;Digital Library Using Dspce and DSGL &ldquo;organized by BSA Crescent Engineering College, Chennai. During 16 -17 March&rsquo;2007.</li>
-<li>&nbsp;Seminar on &ldquo;Filing and Paper work system&rdquo; organized by MBA department , BSA Crescent Engineering College, Chennai on 22nd Nov&rsquo;07</li>
-<li>One day Workshop on &ldquo;Time management and six Sigma &ldquo;organized by CSE department, BSA Crescent Engineering College, Chennai on 30th Dec&rsquo;2008.</li>
-<li>One day Technical Seminar on &ldquo;Virtualization Technologies&rdquo; organized by CSE department, BSA University, Chennai on 08th Jan&rsquo;2010</li>
-<li>Two days National Seminar on &ldquo;Security of Insecurity in cyber space-Challenges of Today and Tomorrow &rdquo; organized by CSE department, BSA University, Chennai on 26th&nbsp; &amp; 27th&nbsp; Jan&rsquo;2010.</li>
-<li>One day Workshop on &ldquo;Effective Conduct of Practical sessions: focus on computer science subjects&rdquo;organized by CSE dept., B S Abdur Rahman University from 12th July&nbsp; 2011</li>
-<li>One day International Workshop on &ldquo; Teaching and Learning in 21st Century&rdquo;&nbsp; on 19th December &rsquo;2011 organized by FTA,&nbsp; B.S.Abdur Rahman University</li>
-<li>One day Workshop on &rdquo; Workshop- Excellence in Academic Performance and Leadership Skills &ldquo;organized by CSE dept., B S Abdur Rahman University on 6<sup>th</sup>&nbsp;July 2012</li>
-<li>One day Workshop on &ldquo;MAT Lab Simulation in Digital Communication and MIMO Systems&rdquo;&nbsp; on 15th March &rsquo;2012 organized by Dept. of ECE,B.S.Abdur Rahman University.</li>
-<li>&nbsp;One day Workshop on &ldquo;Excellence in Academic Performance and Leadership Skills&rdquo; on 6th July &rsquo;2012 organized by Dept. of CSE ,B.S.Abdur Rahman University.</li>
-<li>&nbsp;&ldquo;Second INFITT Workshop on Tamil Computing &ldquo; on March 25 &amp; 26,2013&nbsp; organized by B.S.Abdur Rahman University.</li>
-<li>&nbsp;One day Workshop on &ldquo; Funded proposal preparation workshop for research projects &ldquo;on 5th September &rsquo;2013 organized by FTA ,B.S.Abdur Rahman Crescent University.</li>
-<li>&nbsp;One day Seminar on &ldquo;Educator Day 2013&rdquo; on 2nd September 2013 at National Instruments-ITC Hotel</li>
-<li>&nbsp;One day Workshop on &ldquo;Advance in Geospatial &amp; simulation&nbsp; modeling for Earth and disaster management &ldquo;on 27th Novemebr &rsquo;2014 organized by ERC ,S.R.M.University,Chennai.</li>
-<li>&nbsp;Two day workshop on &ldquo; Analytics,Internet of Things &amp; Web of things-A 360 View&rdquo; on 6th &amp; 7th of October,2015 at B S Abdur Rahman Crescent University.</li>
-<li>&nbsp;One day seminar on ORCAD PCB on 26th June 2015 at&nbsp; B S Abdur Rahman Crescent University.</li>
-<li>&nbsp;One day workshop on &ldquo;<a href="https://www.google.com/search?client=firefox-b-ab&amp;q=Hi+Commercialization+of+Intellectual+Property+and+Quality+assurance+in+higher+Education&amp;spell=1&amp;sa=X&amp;ved=0ahUKEwipm8H9ve7dAhUBOSsKHe9eC5gQkeECCCcoAA">Hi Commercialization of <em>Intellectual</em> <em>Property</em> and Quality assurance in higher Education</a> &ldquo;on 09<sup>th</sup>&nbsp;Feb&rsquo;2017 conducted by B S Abdur Rahman Crescent Crescent University.</li>
-<li>One day workshop on &ldquo;Software development for Por able devices using Andriod on 20<sup>th</sup>&nbsp;March&rsquo;2017 conducted by CSE department&nbsp; at B S Abdur Rahman Crescent University.</li>
-<li>&nbsp;Three days national workshop on &ldquo;Virtual reality game development from 17<sup>th</sup>&nbsp;April to 19<sup>th</sup>&nbsp;April&rsquo;2017 conducted by CSE department &nbsp;at B S Abdur Rahman Crescent University.</li>
-<li>&nbsp;One-week Workshop on &ldquo;Strategies for Innovative and Quality Research&rdquo; conducted by Office of Dean (Ac research) during 31.07.2017 to 05.08.2017 at B.S. Abdur Rahman Crescent Institute of Science &amp; Technology, Chennai.</li>
-</ul>
-<p><strong>&nbsp;</strong></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>/</strong><strong>/ </strong><strong>Projects</strong></p>
-<ul>
-<li>&nbsp;Submitted a funded project proposal on the title</li>
-</ul>
-<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;Cellular Automata and Geometric models for Propagation of Tsunami Waves</strong>&rdquo; to SERB, DST</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Received reply message on 22.09.2018 from DST.</p>
-<ul>
-<li><strong>&nbsp;</strong>Principal Investigator &ndash; Dr.E.Syed Mohamed</li>
-<li>Budget - Rs. 5 lakhs</li>
-<li>Duration &ndash; 36 Months</li>
-</ul>
-<p>&nbsp;<strong>/</strong><strong>/ </strong><strong>Books</strong></p>
-<ul>
-<li><strong>Refresh Course Material - Fundamentals of Computing </strong></li>
-</ul>
-<p>- E.Syed Mohamed</p>
-<p>- Patel press, Chennai (2012), pp.110</p>
-<p>&nbsp;</p>
-<p><strong>/</strong><strong>/ </strong><strong>Practice</strong><strong>d </strong><strong>Skills</strong></p>
-<ul>
-<li>&nbsp;Computer Science problem solving for competitive examinations.</li>
-</ul>
-<p>&nbsp;</p>
-<ul>
-<li>Coding Debugging and Logical design for Computer Science Topic</li>
-</ul>
-<p>&nbsp;</p>
-<ul>
-<li>Content developer for Computer Science &amp; Technology.</li>
-</ul>
-<p>&nbsp;</p>
-<ul>
-<li>Notes preparation for any Computer Science &amp; Engineering Topic.</li>
-</ul>
-<p>&nbsp;</p>
-<ul>
-<li>Curriculum design</li>
-</ul>
-<p>&nbsp;</p>
-<ul>
-<li>Project development</li>
-</ul>
-<p>&nbsp;</p>
-<p>// <strong>Personal and technical strength</strong></p>
-<ul>
-<li>&nbsp;Excellent inter-personal &amp; communication skills.</li>
-<li>Good professional ethics, committed to the target.</li>
-<li>Passion to study and share the knowledge.</li>
-<li>The time management skills</li>
-<li>Proven ability to build, lead and motivate high performance engineering students and development teams.</li>
-<li>Expert Knowledge in Teaching Learning Process, Presentation, Board Handling Management</li>
-<li>&nbsp;Good Presentation Skills.</li>
-</ul>
-<p>&nbsp;</p>
-<p><strong>/</strong><strong>/ </strong><strong>Relevan</strong><strong>t </strong><strong>Links</strong></p>
-<p><a href="http://crescent.education/research/about-us/about-us/">http://crescent.education/research/about-us/about-us/</a></p>
-<p><a href="https://tinyurl.com/ycw3qg4u">https://tinyurl.com/ycw3qg4u</a></p>
-<p><a href="http://syedmohamed.in/">http://syedmohamed.in/</a></p>
-<p>wwww.linkedin.com/in/dr-e-syed-mohamed-536328109</p>
-<p><a href="https://www.researchgate.net/profile/Syed_Mohamed8">https://www.researchgate.net/profile/Syed_Mohamed8</a></p>
-<p><a href="https://scholar.google.com/citations?user=sO4zx-YAAAAJ&amp;hl=en">https://scholar.google.com/citations?user=sO4zx-YAAAAJ&amp;hl=en</a></p>
+<P STYLE="margin-bottom: 0.14in"><FONT SIZE=6><B>Dr. Syed Mohamed. E</B></FONT></P>
+<P STYLE="margin-bottom: 0.14in">  <FONT SIZE=4><B>// Summary of
+Resume</B></FONT></P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Objectives :</B> 
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.14in">Effective and Efficient
+	Academics</P>
+	<LI><P STYLE="margin-bottom: 0.14in">Curricular Innovations and
+	Development</P>
+	<LI><P STYLE="margin-bottom: 0.14in">Hi-tech Learning Environments</P>
+</UL>
+<P STYLE="margin-bottom: 0.14in">•	<B>Employment:</B> Teaching /
+Research (15 Yrs) + Others (4 Yrs)</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Education:</B> Ph.D (CSE), M.E
+(CSE),B.E (EEE)</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Research Interests:</B> Soft
+Computing, Web Technologies, Computer Modelling</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Foreign Visits / Assignments:</B>
+Malaysia, Singapore 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Memberships:</B> National (02)</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Administration:</B> Assistant
+Dean (~ 01 Yr+) &amp; 
+</P>
+<P STYLE="margin-bottom: 0.14in">.    <B>Project Coordinator:</B>-(03 Yrs)</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Research Project:</B> Soft
+computing and Modeling  Project (Applied –SERB,DST,INDIA) (03 Yrs)</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Courses Taught:<B>  PG(10 Yrs)
+&amp;UG(15 Yrs)</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Events Organization:</B>
+Seminar/Workshop/Spl.Lecture (47)</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Publications and
+Presentations:</B> 12+ (H-index: 02) 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>PhD Supervision:</B> Ph.D.(06
+Continue)</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>PhD Theses Evaluations:</B>
+2017- 02 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>PG Supervision:</B> M.Tech
+(~12)</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>UG Supervision:</B> B.Tech
+(~32)</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Select Participations:</B>
+More than 10 in Conferences etc</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Select Lectures:</B> More Than
+5 as Keynote, Guest etc</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Short Term Courses/Faculty
+Development:</B> Eight Courses</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Projects Undertaken:</B>
+Ph.D.(06), M.Tech. (12) &amp; B.Tech.(31)</P>
+<P STYLE="margin-bottom: 0.14in">•	<B>Practiced and Technical Skills
+: </B>10 + Yrs<B>	</B> 
+</P>
+<P STYLE="margin-bottom: 0.14in"><BR><BR>
+</P>
+<P STYLE="margin-bottom: 0.14in"><FONT SIZE=4><B>// Experience</B></FONT><B>		
+  </B>
+</P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0.14in">15 + years of
+experience in Engineering teaching and Research	   
+</P>
+<P STYLE="margin-bottom: 0.14in"><FONT SIZE=4><B>// Academic
+Employment History</B></FONT></P>
+<P STYLE="margin-bottom: 0.14in">2016 – Till Date		 Associate
+Professor ,B.S.A Crescent University ,Chennai        
+</P>
+<P STYLE="margin-bottom: 0.14in">Duration of work   -   August 2016
+to Till date</P>
+<P STYLE="margin-left: 1in; text-indent: 0.5in; margin-bottom: 0.14in">
+Assistant Dean (Ac Research) ,B.S.A Crescent University, Chennai     
+    
+</P>
+<P STYLE="margin-bottom: 0.14in">Duration of work – September 2017
+to Till date</P>
+<P STYLE="margin-bottom: 0.14in">	   
+</P>
+<P STYLE="margin-bottom: 0.14in">2010 - 2016	Assistant Professor
+(Senior Grade),B.S.A Crescent University , Chennai       
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0.5in; margin-bottom: 0.14in">
+Duration of work – 09th March, 2010 to 31st July, 2016  
+</P>
+<P STYLE="margin-bottom: 0.14in"> 2006 - 2010	Assistant
+Professor,B.S.A Crescent Engineering College , Chennai  
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0.5in; margin-bottom: 0.14in">
+Duration of work – 02nd January ,2006 to 08th March , 2010.	   
+</P>
+<P STYLE="margin-bottom: 0.14in">2003 - 2005	Lecturer,C.Abdul Hakeem
+College of Engg. &amp;Tech ,Vellore 
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0.5in; margin-bottom: 0.14in">
+Duration of work – 06th June,2003 to 30th November , 2005   
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Professional Employment
+History </B>
+</P>
+<P STYLE="margin-bottom: 0.14in">1998 - 2001	Software Engineer, Elmaq
+Ebusiness Private Limited,Chennai,  
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0.5in; margin-bottom: 0.14in">
+Duration of work – Oct’1998 – Sept’2001</P>
+<P STYLE="margin-bottom: 0.14in">2003 - 2005	Software Engineer, Epsy
+Info Solutions Pvt.Ltd.,Chennai            
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0.5in; margin-bottom: 0.14in">
+Duration of work – May’1997 - July’1998      	   
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Education	   </B>
+</P>
+<P STYLE="margin-bottom: 0.14in">2009 - 2015	 Ph.D. 
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0.5in; margin-bottom: 0.14in">
+ Computer Science and Engineering 	B.S.A Crescent University Chennai	
+  
+</P>
+<P STYLE="margin-bottom: 0.14in">2001 - 2003	M.E . 
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0.5in; margin-bottom: 0.14in">
+Computer Science and Engineering 	University of Madras, Chennai	   
+</P>
+<P STYLE="margin-bottom: 0.14in">1994 - 1997	B.E.</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0.5in; margin-bottom: 0.14in">
+Electrical and Electronics Engineering	University of Madras, Chennai</P>
+<P STYLE="margin-bottom: 0.14in">	   
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// International certification	  
+	</B></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.14in">Microsoft Certified
+	Professional (MCP)	   	    
+	</P>
+	<LI><P STYLE="margin-bottom: 0.14in">IBM Certified Database
+	Associate DB2	</P>
+</UL>
+<P STYLE="margin-bottom: 0.14in"><B>// Membership in Professional
+Bodies</B></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.14in">Indian Physics Association
+	(IPA)</P>
+	<LI><P STYLE="margin-bottom: 0.14in">Instrument Society of  India
+	(ISOI)</P>
+</UL>
+<P STYLE="margin-bottom: 0.14in"><BR><BR>
+</P>
+<P STYLE="margin-bottom: 0.14in">   <B>// Synopsis of Ph.D.Thesis </B>
+</P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0.14in"><B>Cellular automata
+and geometric models for Propagation of  Tsunami waves</B></P>
+<P ALIGN=JUSTIFY STYLE="text-indent: 0.5in; margin-bottom: 0.14in">This
+thesis deals with tsunami wave propagation models. The aim of this
+work is to develop algorithmic-based tools for computing the tsunami
+wavespread under different conditions. The models in this work
+establish the methods of computing the rate of propagation of tsunami
+waves and Estimated Arrival Time (EAT). Moreover, cellular automata
+models are useful for both homogeneous and non-homogeneous ocean
+environments and Huygens’ Principle model is implemented for
+homogeneous ocean environment. The algorithms are developed using
+mathematical and soft computing techniques. The objectives of the
+thesis are two-fold: (a) To simulate various scenarios of tsunami
+wavespread and (b) to study the performance and effectiveness of
+cellular automata and the geometric models in tsunami wave
+propagation.</P>
+<P ALIGN=JUSTIFY STYLE="text-indent: 0.5in; margin-bottom: 0.14in">The
+first study discusses two-dimensional cellular automata model to
+correlate the sensitivity of the computational results to tsunami
+wavespread.In the second study a new hexagonal cellular automata
+model based on the transfer of fractional traversed area and thereby,
+graphical representation of rate of wave spread has been found
+successfully. The performance enhancement of hexagonal cellular
+automata over two-dimensional cellular automata is also studied.</P>
+<P ALIGN=JUSTIFY STYLE="text-indent: 0.5in; margin-bottom: 0.14in">The
+algorithms are efficient and can be easily implemented with less
+computational time and cost. Experimental results of our models mimic
+the value of real propagation. Together with these working models of
+a tsunami wave and historical data, Visual representations using the
+Java programming language for our models are also presented.	  
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Areas of Research Interest</B></P>
+<P STYLE="margin-bottom: 0.14in">•	Soft Computing</P>
+<P STYLE="margin-bottom: 0.14in">•	Information Security</P>
+<P STYLE="margin-bottom: 0.14in">•	Web Technologies</P>
+<P STYLE="margin-bottom: 0.14in">•	Big data &amp; Data Visualization</P>
+<P STYLE="margin-bottom: 0.14in">•	Mathematical Modeling</P>
+<P STYLE="margin-bottom: 0.14in">•	Graphics and Multimedia	   
+</P>
+<P STYLE="margin-bottom: 0.14in"> <B>// List of Publications</B></P>
+<P STYLE="margin-bottom: 0.14in">Refereed Journal Publications</P>
+<OL>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,S.Rajasekaran,”
+	Tsunami Wave Propagation Models Based On Two- dimensional Cellular
+	Automata “International Journal Of Computer Applications ,57(20)
+	,p 22-29,November 2012. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,S.Rajasekaran
+	“Tsunami Wave Simulation Models Based On Hexagonal Cellular
+	Automata “WSEAS Transactions On Fluid Mechanics, 8(3), p 91-101,
+	July  2013.(Scopus Listed)</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,S.Rajasekaran,”
+	Performance Enhancement for Tsunami Wave Simulation using Hexagonal
+	Cellular Automata “,International Journal Of Computer
+	Applications,75(9) ,      p  36-43, ,August   2013.  
+	</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,S.Rajasekaran “
+	Propagation Of Tsunami Waves Multi-factor Spread Simulation Based On
+	CA Model “,International Journal Of Advanced Computer Technology,
+	2(8) ,p 267-274 , August 2013.</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,S.Rajasekaran “A
+	Study Of Tsunami Model For Propagation Of Oceanic Waves”, Journal
+	Of Theoretical And Applied Information Technology, 59(3) p 510-519,
+	,January 2014. (Scopus Listed)</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed  and A. Kamala,”
+	Gradient blending of images for content aware image resizing””
+	SSRG International Journal of Computer Science and
+	Engineering,5(6),p 71-76,July 2015 (UGC Approved Journal)</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed  and
+	R.Neerajha,”Image enhancement and quality analysis using the
+	biolog transformation”” SSRG International Journal of Computer
+	Science and Engineering,5(6),p 77-83,July 2015</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed  and S.Syed
+	Abdul syed “An effective reliable broadcast code dissemination in
+	wireless sensor networks “International Journal of Electrical
+	Engineering &amp; Technology (IJEET),  6(7), pp.61-70, Jul-Aug,
+	2015. (Scopus Listed)</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed  and A.Sarfaraz
+	Ahamed “A novel broadcasting method for code dissemination in
+	wireless sensor networks “International Journal of Electrical
+	Engineering &amp; Technology (IJEET),  6(7), pp.71-80, Jul-Aug,
+	2015. (Scopus Listed)</P>
+	<LI><P STYLE="margin-bottom: 0.14in">V Yuvaraj,E.Syed Mohamed,S
+	Rajasekaran,&quot;Analytical and Numerical Modeling of Tsunami Wave
+	Propagation for double layer state in Bore&quot;, Journal of
+	Physics: Conference Series Doi:10.1088/1742-6596/1000/1/012113
+	(Scopus Listed)</P>
+</OL>
+<P STYLE="margin-bottom: 0.14in"> <B>Refereed Conference Publications
+</B>
+</P>
+<OL>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,S.Rajasekaran,”
+	 “Performance Enhancement of Forest fire spread Simulation using
+	Hexagonal CA Model” at BSA University, Chennai on 28-29 Jan’2010</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,S.Rajasekaran,
+	“Multi –Model forest fire simulation using CA Model “at
+	Vellammal Engineering College, Chennai on 19th Feb’2010</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,S.Rajasekaran,”
+	 “A geometric Model for the propagation of Tsunami waves”
+	25-29thJuly’2010, 4th International Tsunami conference Toronto,
+	Canada (Scopus Listed)</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,S.Rajasekaran,”
+	 “Forest fire Simulation Models based on Cellular Automata”
+	03-05August’10, ICMAE, 2010 Malaysia</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,S.Rajasekaran,”
+	 “Tsunami Wave Propagation Models based on Cellular Automata”
+	November 30 - 10, 2010, ICACCT – 2010 ,APIIT
+	,Panipat,IndiaRefereed Conference Publications</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed “Secret Image
+	Hiding using Fragments for Visible MOSIAC Images”,ICMEET 2013 
+	</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,”Graphical
+	Password Authentication using Persuasive  Click Points”,LYCANS
+	2K14 26th Feb’2014</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed, “Reversible
+	Data Hiding in Encrypted images and Videos by Reserving Room “LYCANS
+	2K14 26th Feb’2014</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed,”Gradient
+	Blending of Images using Content Aware Image Resizing “ICETSH-2015
+	Imayam College of Engg.Trichy</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed, “Image
+	Enchantment and Quality Analysis using the BILOG Tranformation”
+	ICETSH-2015 Imayam College of Engg.Trichy</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E.Syed Mohamed, Sathana R
+	“reversible data hiding in encrypted images using distributed
+	source coding &amp; quota; ,ICSSCCET 2016 ,Karpagam Institute of
+	Technology , Coimbatore on 19th March 2016</P>
+	<LI><P STYLE="margin-bottom: 0.14in">E. Syed Mohamed,S. Nivedha
+	“Uniform Embedding Distortion Function and Discrete Cosine
+	Transformation for Efficient JPEG Steganography”, ICCA2016,
+	Meenakshi College of Engineering,Chennai on  9th  April 2016</P>
+	<LI><P STYLE="margin-bottom: 0.14in">Anusuya ,E.Syed Mohamed
+	“Cybercrime and Cyber security issues and challenges on
+	healthcare: A survey” in International Conference On Information
+	Technology &amp; Digital Applications 2018 (ICITDA 2018) (ISBN:
+	978-1- 5108-5984- 5)conducted by Department of Information
+	Technology during April 6-7, 2018 at JECRC, Jaipur. 	   
+	</P>
+</OL>
+<P STYLE="margin-bottom: 0.14in"><B>// Research Guidance:</B></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.14in">No.of U.G Students Guided: 31</P>
+	<LI><P STYLE="margin-bottom: 0.14in">No.of P.G Students Guided: 12</P>
+	<LI><P STYLE="margin-bottom: 0.14in">No.of Ph.D students
+	(on-going):06</P>
+</UL>
+<P STYLE="margin-left: 0.5in; margin-bottom: 0.14in">   
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Research Citation details </B>
+</P>
+<P STYLE="margin-bottom: 0.14in">https://www.researchgate.net/profile/Syed_Mohamed8</P>
+<P STYLE="margin-bottom: 0.14in">https://scholar.google.com/citations?user=sO4zx-YAAAAJ&amp;hl=en	
+</P>
+<P STYLE="margin-bottom: 0.14in"><BR><BR>
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Curricular &amp; Other
+Responsibilities</B></P>
+<P STYLE="margin-bottom: 0.14in"><B>/ / Courses Taught</B></P>
+<P STYLE="margin-bottom: 0.14in"><B>Under Graduate and Post Graduate 
+–Subjects Handled </B>
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Object Oriented Programming</P>
+<P STYLE="margin-bottom: 0.14in">•	Graphics &amp;Multimedia</P>
+<P STYLE="margin-bottom: 0.14in">•	Relational Database Management
+Systems</P>
+<P STYLE="margin-bottom: 0.14in">•	Internet and web technology
+Programming</P>
+<P STYLE="margin-bottom: 0.14in">•	Software Engineering</P>
+<P STYLE="margin-bottom: 0.14in">•	Computer Networks</P>
+<P STYLE="margin-bottom: 0.14in">•	Data Mining and Warehousing 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Mobile Computing 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Information Security</P>
+<P STYLE="margin-bottom: 0.14in"><B>Under Graduate and Post Graduate 
+– Lab Handled             </B>
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Object Oriented Programming Lab</P>
+<P STYLE="margin-bottom: 0.14in">•	Graphics &amp; Multimedia Lab</P>
+<P STYLE="margin-bottom: 0.14in">•	Internet programming Lab 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Relational Database Management
+Systems Lab</P>
+<P STYLE="margin-bottom: 0.14in">•	Data structure Lab</P>
+<P STYLE="margin-bottom: 0.14in">•	Computer Networks Lab</P>
+<P STYLE="margin-bottom: 0.14in">•	Microprocessor and
+Microcontroller Lab</P>
+<P STYLE="margin-bottom: 0.14in">•	Computer Programming Lab	  
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Professional Activities </B>
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Quality Improvement
+Programme(QIP)</B></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.14in">“Instructional  Design and
+	Delivery” at NITTTR, Chennai ,From 21st January to 02nd February
+	‘2008.</P>
+	<LI><P STYLE="margin-bottom: 0.14in">“Cryptography and Secure
+	Communication” at VIT, Vellore  ,From 24th November to 6th
+	December ‘2003</P>
+	<LI><P STYLE="margin-bottom: 0.14in">“Mobile Networks ” at Sri
+	Sairam Engineering College,Chennai ,From 19th  Jan to 23rd  Jan’2009</P>
+	<LI><P STYLE="margin-bottom: 0.14in">&quot;Embedded System &amp;
+	Robotics” at BSA Crescent Crescent University, Chennai ,from 18th
+	July’2016 to 24th July ‘2016</P>
+</UL>
+<P STYLE="margin-bottom: 0.14in"><B>// Faculty Development
+Programme(FDP) </B>
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.14in">“Operating System” at
+	Crescent Engineering College, Chennai, From 31st May to 5th 
+	June’2004</P>
+	<LI><P STYLE="margin-bottom: 0.14in">“Network Protocol &amp;
+	Management” at National Engineering College, Kovilpatti,From
+	22ndMay to 3rd June ‘2006.</P>
+	<LI><P STYLE="margin-bottom: 0.14in">&quot;Web Technology “at Sai
+	Ram Engineering College, Chennai ,From 15th   May to 20th  May’
+	2006. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0.14in">Two week “Faculty Development
+	Programme  on Teaching and Learning” at B.S.Abdur Rahman
+	University , From 29th June to 11th July’2015</P>
+	<LI><P STYLE="margin-bottom: 0.14in">“A School on Algorithms and
+	Techniques ” at B.S.Abdur Rahman University , Chennai,From 22nd
+	July to 27th July’2015.</P>
+	<LI><P STYLE="margin-bottom: 0.14in">“Big data Analytics “
+	Conducted by DST,New Delhi at Anand Institute of Higher
+	Technology,Chennai ,From 25th  April ‘2016 to 05th  May ‘2016</P>
+	<LI><P STYLE="margin-bottom: 0.14in">“Introduction to Mobile App
+	Development  Conducted by ICT Academyat at B S Abdur Rahman 
+	University, Chennai during 30-31st Jan’2017	   
+	</P>
+</UL>
+<P STYLE="margin-bottom: 0.14in"><B>// Development of Learning
+Resource Material</B></P>
+<P STYLE="margin-bottom: 0.14in">•	Refresh Course Material for
+Fundamentals of Computing (FOC) Developed&nbsp;</P>
+<P STYLE="margin-bottom: 0.14in">•	 PPT and CD Prepared for Refresh
+Course Material(FOC),DBMS,Web technologies ,etc.,</P>
+<P STYLE="margin-bottom: 0.14in">•	Laboratory Manual Developed
+(OOPS)</P>
+<P STYLE="margin-bottom: 0.14in">•	Activity based Learning Material
+Developed (DBMS)</P>
+<P STYLE="margin-bottom: 0.14in">•	Project based Learning Material
+Developed(DBMS Lab)</P>
+<P STYLE="margin-bottom: 0.14in">•	OOPS Concept Lecture Video
+available in You tube 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	
+(https://www.youtube.com/watch?v=RFE2BvGWkj0&amp;t=20s)	   
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Invited Lectures as a Resource
+person	   </B>
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.14in">TED Programme for “Computer
+	Hardware Services and Maintenance” conducted by EDC Department and
+	organized by BSA Crescent Engineering College, Chennai, during 23rd
+	-25thFeb ‘2008.</P>
+	<LI><P STYLE="margin-bottom: 0.14in">The Talent transformation
+	programme for the WIPRO Tech., Chennai during May 2009. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0.14in">The Campus connect programme
+	for the INFOSYS Tech., Chennai during May 2008 &amp; May 2009.</P>
+	<LI><P STYLE="margin-bottom: 0.14in">“Cellular Automata and its
+	Applications “ 06th&amp;07th Dec’2010	A two day
+	Inter-disciplinary Seminar – Soft Computing Algorithms organized
+	by B.S.Abdur Rahman University	   
+	</P>
+	<LI><P STYLE="margin-bottom: 0.14in">“Master Level  IT finishing
+	school training for SC/ST students” 12th – 14th oct’2011	A
+	three day training programme for SC/ST  organized by B.S.Abdur
+	Rahman University	 	  
+	</P>
+</UL>
+<P STYLE="margin-bottom: 0.14in"><B>// Institution level
+Responsibilities:</B></P>
+<P STYLE="margin-bottom: 0.14in">•	Time table coordinator &amp;
+Class rooms arrangement co- ordinator 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Co-ordinated in the conduct of
+Institution level on-line examination for Admissions</P>
+<P STYLE="margin-bottom: 0.14in">•	Research Supervisor</P>
+<P STYLE="margin-bottom: 0.14in">•	Doctoral Committee &amp; Pre
+synopsis Committee Member</P>
+<P STYLE="margin-bottom: 0.14in">•	PhD Viva Voce –Coordinator</P>
+<P STYLE="margin-bottom: 0.14in">	   
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Department level
+Responsibilities:</B></P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	Worked as Project coordinator in CSE department at C.Abdul Hakeem
+College of Engineering &amp; Technology, Melvisharam. From June’2003
+to Dec’2005</P>
+<P STYLE="margin-bottom: 0.14in">•	Worked as Class advisor for
+B.Tech(CSE) &amp; M.Tech(SE)</P>
+<P STYLE="margin-bottom: 0.14in">•	Worked as Project coordinator for
+B.Tech(CSE) 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Faculty Advisor .</P>
+<P STYLE="margin-bottom: 0.14in">•	Internal Auditor for Labs.</P>
+<P STYLE="margin-bottom: 0.14in">•	Prof.Lab In charge (June 2017
+–July 2018) .</P>
+<P STYLE="margin-bottom: 0.14in">•	Co-ordinator for stock
+verification.</P>
+<P STYLE="margin-bottom: 0.14in">•	Committee Member for Monitoring
+the smooth conduct of classes.</P>
+<P STYLE="margin-bottom: 0.14in">•	Class room arrangement
+Co-ordinator.</P>
+<P STYLE="margin-bottom: 0.14in">•	Department Academic Audit
+Committee member.</P>
+<P STYLE="margin-bottom: 0.14in">•	Project Review Committee Member.</P>
+<P STYLE="margin-bottom: 0.14in">•	Memebr for Parent –Teacher Meet</P>
+<P STYLE="margin-bottom: 0.14in">•	Member of Industry Institute
+Interaction meet 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Staff Incharge for Regulation,
+Curriculum and syllabi 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Co-ordinated in the conduct of
+University Admissions 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Co-ordinated in the NBA for
+B.Tech CSE &amp; M.Tech CSE. 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Co-ordinated in the conduct of
+department symposium 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Co-ordinated in the conduct of
+department events Extra Curricular Meet and Talent Hunt 
+</P>
+<P STYLE="margin-bottom: 0.14in">•	Committee Member Co-ordinator for
+Curriculum development for UG &amp; PG programmes</P>
+<P STYLE="margin-bottom: 0.14in">•	Class Committee Chairperson	   
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Organized
+Workshops/Seminars/Conferences </B>
+</P>
+<P STYLE="margin-bottom: 0.14in">Organized
+Workshops/Seminar/Programmes : 47 
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	Two day workshop on “IBM Tivoli Software” organized by BSA &nbsp;
+Crescent Engineering College, Chennai. During 21 -22 March’2007.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	Soft skills programme on “Importance of Software Testing”
+conducted by Birla Soft and organized by BSA Crescent Engineering
+College, Chennai&nbsp;on 25th March’2007.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	Soft skills programme on “WEBINAR on Storage Networks”
+conducted by Infosys and organized by BSA Crescent Engineering
+College, Chennai, on 29th&nbsp;&nbsp;&nbsp; March’2007.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Seminar  on “IBM-Overview of Rational Software”&nbsp;
+conducted by CSE Department&nbsp; and organized by BSA Crescent
+Engineering College, Chennai&nbsp;&nbsp; on 19th September’2007</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Workshop  on “Time Management and Six sigma” conducted
+by CSE Department and organized by BSA Crescent Engineering
+College,Chennai on 30thDecember ’08.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Seminar  on “Importance of Total Quality&nbsp;
+Management” conducted by CSE Department on 04th&nbsp;Aug’2009</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Seminar  on “Face the interview and Ace the interview”
+conducted by CSE Department&nbsp;on 14th&nbsp;December’2009</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Technical Seminar as a Co-Coordinator on “Virtualization
+Technology ” conducted by CSE Department&nbsp;on 08th&nbsp;Jan’2010</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Seminar  on “Applying Different Technologies in the
+Engineering Field ” conducted by CSE Department&nbsp;on 18th
+Jan’2010</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Seminar  on “ Adobe Certified Expert&nbsp; Training
+Programme ” conducted by CSE Department&nbsp;on 22nd&nbsp;Feb’2010</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 A two day Seminar  on “ Soft Computing Algorithms&nbsp; ”
+conducted by CSE Department&nbsp;on 06&amp;07th&nbsp;Dec’2010</P>
+<P STYLE="margin-bottom: 0.14in">•	A two day Seminar  on “
+Software Testing ” conducted by CSE Department&nbsp;on
+03&amp;04th&nbsp;Oct’2011</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 Workshop on “ IEEE Programming in SWEBOK and CSDA” for Second
+UG and PG students of CSE on 12th&nbsp;March 2011</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	&nbsp;One month Summer class  on “Fundamental of computing&nbsp;
+Refresh Course” from&nbsp; April 2012 to May 2012</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	&nbsp; one month Summer class  on “Fundamental of computing&nbsp;
+Refresh Course” from&nbsp; April 2013 to May 2013.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day International special lecture&nbsp;  on “An Introduction
+to Data Science “ conducted by International collaboration
+Department on 16th&nbsp;Nov’2016.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Industry Interaction Meet 2016&nbsp;  on “IIPC Meet
+2016” conducted by CSE department&nbsp;on 21st&nbsp;Nov’2016.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day International special lecture  on “Game Changing Finance
+technologies “conducted by CSE Department on 27thNov’2016.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	Three days national workshop on “Virtual reality game
+development from 17th&nbsp;April to 19th&nbsp;April’2017 conducted
+by CSE department&nbsp; at B S Abdur Rahman Crescent University</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One&nbsp; day&nbsp; workshop on “Mobile App development
+&amp;Softskill on 14th&nbsp;March ’2017 conducted by CSE
+department&nbsp; at B S Abdur Rahman Crescent University</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	&nbsp;One day International eight special lecture presentation  on
+“British Council CS &amp; IT Mission 2017 “conducted by
+International collaboration Department&nbsp; on 25th&nbsp;Jan’2017.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day International lecture presentation  on ” Global Academic
+Internship Programme at NUS -NTU , SINGAPORE, conducted by
+International collaboration Department at BSAU&nbsp; on 15th Feb 2017</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day International lecture presentation  on ” US Consulate
+Program at BSAU with Mr.Aman Ali,conducted by International
+collaboration Department at BSAU&nbsp; on 2nd March 2017</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day International lecture presentation  on “German Academic
+Exchange Service presentation”conducted by International
+collaboration Department at BSAU&nbsp;on 09th March 2017</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Onsite Training Seminar on “How to use Turnitin
+Plagiarism Software Effectively “conducted by Office of Dean (Ac
+research) on 6th Nov 2017 at B.S. A Crescent Institute of Science &amp;
+Technology, Chennai</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day “ VC’s Town Hall Talk with Research Scholars”
+conducted by Office of Dean (Ac research) on 21st Nov ,2017 at B.S. A
+Crescent Institute of Science &amp; Technology, Chennai. 
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Workshop on “Scholarly Article Writing and Journal
+Publications” conducted by Office of Dean (Ac research) on 13th
+March 2018 at B.S. A Crescent Institute of Science &amp; Technology,
+Chennai. 
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day guest lecture on “A Computation Analysis of Indus Valley
+Inscriptions” conducted by Office of Dean (Ac research) on 03rd
+April, 2018 at B.S. A Crescent Institute of Science &amp; Technology,
+Chennai. 
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Workshop on “How to write a Research paper” conducted
+by Office of Dean (Ac research)on 13th April, 2018 at B.S. A Crescent
+Institute of Science &amp; Technology, Chennai. 
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Workshop on “How to Make Mobile Resume Website in 3
+Hours” conducted by Office of Dean (Ac research)on 21st April,2018
+at B.S. A Crescent Institute of Science &amp; Technology, Chennai. 
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 A four days Workshop on “ Data Analytics -SPSS ” conducted by
+Office of Dean (Ac research)from 02th May – 05th May 2018 at B.S. A
+Crescent Institute of Science &amp; Technology, Chennai.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 A three days Workshop on “Writing Quality Research Articles,
+Project Proposals and Patents” conducted by Office of Dean
+(Research) from 20-22 JULY 2018 at B.S. A Crescent Institute of
+Science &amp; Technology, Chennai.</P>
+<P STYLE="margin-bottom: 0.14in"><BR><BR>
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Prof S.Peer Mohamed’s
+Endowment Lecture</B></P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 One day Prof S.Peer Mohamed third Endowment Lecture as a Co
+coordinator organized by BSA Crescent University on 29.11. 2016</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 One day Prof S.Peer Mohamed Second Endowment Lecture as a Co
+coordinator organized by BSA Crescent University on 05.10. 2015</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Prof S.Peer Mohamed First Endowment Lecture as a Co
+coordinator organized by BSA Crescent University on 29.04. 2014.</P>
+<P STYLE="margin-bottom: 0.14in"><B>// &nbsp;Entrepreneurship
+Development Cell Activities</B></P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 Three days EAC (Entrepreneurship Awareness Camp) Programme 
+conducted by EDC Department and organized by BSA Crescent Engineering
+College, Chennai,During 4th&nbsp;&nbsp;Feb -6th&nbsp;&nbsp;Feb’2008.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 EDC-Sixth Advisory Board Meeting&nbsp; conducted by EDC
+Department&nbsp; and organized by BSA Crescent Engineering College,
+Chennai&nbsp;on 3rd&nbsp;March’2008</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 One day Soft skills programme  on “Filing Systems, Paper works
+and Office Automation” conducted by EDC Department and organized by
+BSA Crescent Engineering&nbsp;College, Chennai on 14th March’2008</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 Six Week TEDP Programme  cum instructor on “Computer Hardware
+Services and&nbsp;Maintenance” conducted by EDC Department and
+organized by BSA Crescent Engineering College, Chennai, during 23rd
+Feb -30 March’2008.</P>
+<P STYLE="margin-bottom: 0.14in">•	 One day shop for women students 
+organized by BSA Crescent University on&nbsp; 02.03.2017</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Attended
+Workshops/Seminars/Conferences</B></P>
+<P STYLE="margin-bottom: 0.14in">&nbsp;<B>National &amp;
+International Conference/Workshops</B></P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	Two Day National Conference on “Mobile Computing“ organized by
+BSA Crescent Engineering College, Chennai. During 3- 4 Feb’2005.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	Two Day International Conference for English on” ELTAI”
+organized by BSA Crescent Engineering College, Chennai. During 9 -10
+Feb’2007.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day National workshop on “Tamil Computing” organized by&nbsp;
+BSA Crescent Engineering College, Chennai, on 8th&nbsp;&nbsp;Aug 2007</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 National Conference of “iSec 2007” (Information Security) at
+Trade center,&nbsp; Nungambakkam, Chennai on 27th&nbsp;&nbsp;Nov’07</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 National Workshop on “Impact of Media in Technical and
+Vocational Education” On 06th &amp; 07th March’08 at NITTTR,
+Chennai.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 National Conference of “Open Sources in India’09” at Trade
+center, Nungambakkam, Chennai on 12&amp;13th March’2009.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 International Conference – ICSEMA 2012 on Dec19-21,2012&nbsp;
+organized by B.S.Abdur Rahman University</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 National Conference on Balancing work and Life on 4th Feb’2012
+organized by CBS ,B.S.Abdur Rahman  University</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	“National Cyber safety and Security Standards Summit&nbsp;
+Conference 2013“ on April&nbsp; 27 &amp;28,2013 organized by NCS at
+Jeppier College of Engineering ,Chenna.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 One day National Workshop on “Educators day 2013 “&nbsp; on
+2nd September’2013 organized by National Instruments ,Chennai</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 One day National Level Workshop on “Advances in Geospatial &amp;
+Simulation Models for Earthquake and Disaster Studies “&nbsp; on
+27th September’2014 organized by Earthquake Research Cell, SRM
+University, Chennai</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Workshops/Seminars</B></P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	Seven-day Staff workshop on “The Great Mind Challenge-2006”
+Conducted by IBM and organized by BSA Crescent Engineering College,
+Chennai. From 18th Sept’2006 to 24 Sept’ 2006.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	Two-day Staff workshop on “Linux Administration” organized by
+BSA Crescent Engineering College, Chennai. During 12 &amp; 13&nbsp;
+Jan’2007</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	Two day workshop on “Digital Library Using Dspce and DSGL
+“organized by BSA Crescent Engineering College, Chennai. During 16
+-17 March’2007.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 Seminar on “Filing and Paper work system” organized by MBA
+department , BSA Crescent Engineering College, Chennai on 22nd Nov’07</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Workshop on “Time management and six Sigma “organized
+by CSE department, BSA Crescent Engineering College, Chennai on 30th
+Dec’2008.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Technical Seminar on “Virtualization Technologies”
+organized by CSE department, BSA University, Chennai on 08th Jan’2010</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	Two days National Seminar on “Security of Insecurity in cyber
+space-Challenges of Today and Tomorrow ” organized by CSE
+department, BSA University, Chennai on 26th&nbsp; &amp; 27th&nbsp;
+Jan’2010.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Workshop on “Effective Conduct of Practical sessions:
+focus on computer science subjects”organized by CSE dept., B S
+Abdur Rahman University from 12th July&nbsp; 2011</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day International Workshop on “ Teaching and Learning in
+21st Century”&nbsp; on 19th December ’2011 organized by FTA,&nbsp;
+B.S.Abdur Rahman University</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Workshop on ” Workshop- Excellence in Academic
+Performance and Leadership Skills “organized by CSE dept., B S
+Abdur Rahman University on 6th&nbsp;July 2012</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day Workshop on “MAT Lab Simulation in Digital Communication
+and MIMO Systems”&nbsp; on 15th March ’2012 organized by Dept. of
+ECE,B.S.Abdur Rahman University.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 One day Workshop on “Excellence in Academic Performance and
+Leadership Skills” on 6th July ’2012 organized by Dept. of CSE
+,B.S.Abdur Rahman University.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 “Second INFITT Workshop on Tamil Computing “ on March 25 &amp;
+26,2013&nbsp; organized by B.S.Abdur Rahman University.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 One day Workshop on “ Funded proposal preparation workshop for
+research projects “on 5th September ’2013 organized by FTA
+,B.S.Abdur Rahman Crescent University.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 One day Seminar on “Educator Day 2013” on 2nd September 2013
+at National Instruments-ITC Hotel</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 One day Workshop on “Advance in Geospatial &amp; simulation&nbsp;
+modeling for Earth and disaster management “on 27th Novemebr ’2014
+organized by ERC ,S.R.M.University,Chennai.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 Two day workshop on “ Analytics,Internet of Things &amp; Web of
+things-A 360 View” on 6th &amp; 7th of October,2015 at B S Abdur
+Rahman Crescent University.</P>
+<P STYLE="margin-bottom: 0.14in">•	 One day seminar on ORCAD PCB on
+26th June 2015 at&nbsp; B S Abdur Rahman Crescent University.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 One day workshop on “Hi Commercialization of Intellectual
+Property and Quality assurance in higher Education “on
+09th&nbsp;Feb’2017 conducted by B S Abdur Rahman Crescent Crescent
+University.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	One day workshop on “Software development for Por able devices
+using Andriod on 20th&nbsp;March’2017 conducted by CSE department&nbsp;
+at B S Abdur Rahman Crescent University.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 Three days national workshop on “Virtual reality game
+development from 17th&nbsp;April to 19th&nbsp;April’2017 conducted
+by CSE department &nbsp;at B S Abdur Rahman Crescent University.</P>
+<P STYLE="margin-left: 0.5in; text-indent: -0.5in; margin-bottom: 0.14in">
+•	 One-week Workshop on “Strategies for Innovative and Quality
+Research” conducted by Office of Dean (Ac research) during
+31.07.2017 to 05.08.2017 at B.S. Abdur Rahman Crescent Institute of
+Science &amp; Technology, Chennai.</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Projects</B></P>
+<P STYLE="margin-bottom: 0.14in">•	Submitted a funded project
+proposal on the title</P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0.14in"> “Cellular
+Automata and Geometric models for Propagation of Tsunami Waves” to
+SERB, DST 
+</P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0.14in">   Received
+reply message on 22.09.2018 from DST.</P>
+<P STYLE="margin-bottom: 0.14in">•	Principal Investigator –
+Dr.E.Syed Mohamed</P>
+<P STYLE="margin-bottom: 0.14in">•	Budget - Rs. 22.5 lakhs</P>
+<P STYLE="margin-bottom: 0.14in">•	Duration – 36 Months</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Books</B></P>
+<P STYLE="margin-bottom: 0.14in">•	Refresh Course Material -
+Fundamentals of Computing 
+</P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0.14in">- E.Syed Mohamed</P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0.14in">- Patel press,
+Chennai (2012), pp.110</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Practiced Skills</B></P>
+<P STYLE="margin-bottom: 0.14in">•	Computer Science problem solving
+for competitive examinations.</P>
+<P STYLE="margin-bottom: 0.14in">•	Coding Debugging and Logical
+design for Computer Science Topic</P>
+<P STYLE="margin-bottom: 0.14in">•	Content developer for Computer
+Science &amp; Technology.</P>
+<P STYLE="margin-bottom: 0.14in">•	Notes preparation for any
+Computer Science &amp; Engineering Topic.</P>
+<P STYLE="margin-bottom: 0.14in">•	Curriculum design</P>
+<P STYLE="margin-bottom: 0.14in">•	Project development</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Personal and technical
+strength</B></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.14in">Excellent inter-personal &amp;
+	communication skills.</P>
+	<LI><P STYLE="margin-bottom: 0.14in">Good professional ethics,
+	committed to the target.</P>
+	<LI><P STYLE="margin-bottom: 0.14in">Passion to study and share the
+	knowledge.</P>
+	<LI><P STYLE="margin-bottom: 0.14in">The time management skills</P>
+	<LI><P STYLE="margin-bottom: 0.14in">Proven ability to build, lead
+	and motivate high performance engineering students and development
+	teams.</P>
+	<LI><P STYLE="margin-bottom: 0.14in">Expert Knowledge in Teaching
+	Learning Process, Presentation, Board Handling Management</P>
+	<LI><P STYLE="margin-bottom: 0.14in">Good Presentation Skills.</P>
+</UL>
+<P STYLE="margin-bottom: 0.14in"><B>// Personal Proﬁle</B></P>
+<P STYLE="margin-bottom: 0.14in"><B>Name</B></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0.14in">SYED MOHAMED.E</P>
+<P STYLE="margin-bottom: 0.14in"><B>Office Address </B>
+</P>
+<P STYLE="margin-left: 0.5in; margin-bottom: 0.14in">Department of
+CSE</P>
+<P STYLE="margin-left: 0.5in; margin-bottom: 0.14in">B.S.A.Crescent
+University</P>
+<P STYLE="margin-left: 0.5in; margin-bottom: 0.14in">Vandalur,
+Chennai,</P>
+<P STYLE="margin-left: 0.5in; margin-bottom: 0.14in">India, 600 048  
+</P>
+<P STYLE="margin-left: 0.5in; margin-bottom: 0.14in">+91-44-22751347/48/50</P>
+<P STYLE="margin-bottom: 0.14in"><B>Mobile</B></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0.14in">+91 9444214825</P>
+<P STYLE="margin-bottom: 0.14in"><B>Email</B></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0.14in">syedmohamed.e
+@gmail.com</P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0.14in"><BR><BR>
+</P>
+<P STYLE="margin-bottom: 0.14in"><B>// Relevant Links </B>
+</P>
+<P STYLE="margin-bottom: 0.14in">http://crescent.education/research/about-us/about-us/</P>
+<P STYLE="margin-bottom: 0.14in">https://tinyurl.com/ycw3qg4u</P>
+<P STYLE="margin-bottom: 0.14in">http://syedmohamed.in/</P>
+<P STYLE="margin-bottom: 0.14in">wwww.linkedin.com/in/dr-e-syed-mohamed-536328109</P>
+<P STYLE="margin-bottom: 0.14in">https://www.researchgate.net/profile/Syed_Mohamed8</P>
+<P STYLE="margin-bottom: 0.14in">https://scholar.google.com/citations?user=sO4zx-YAAAAJ&amp;hl=en</P>
